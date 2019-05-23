@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Nejman.CSEC.CryptoString</PackageId>
+    <Authors>Mateusz Nejman</Authors>
+    <Company>Mateusz Nejman</Company>
+    <Product>CSEC.CryptoString</Product>
+    <Description>Simple, but safety string encrypting/decrypting functions. It may be used to encrypt chat messages between sockets.</Description>
+    <Copyright>Copyright © Mateusz Nejman</Copyright>
+    <PackageProjectUrl>https://mateusz-nejman.pl/index.php/blog/show/csec-cryptostring1</PackageProjectUrl>
+    <RepositoryType>Source repository</RepositoryType>
+  </PropertyGroup>
+
+</Project>
