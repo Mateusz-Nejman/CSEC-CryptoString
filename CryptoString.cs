@@ -40,7 +40,7 @@ namespace Nejman.CSEC
         {
             RijndaelManaged rm = new RijndaelManaged();
             MemoryStream ms = new MemoryStream(data);
-            CryptoStream cs = new CryptoStream(ms, rm.CreateEncryptor(GetKey(pass), GetKey(pass)), CryptoStreamMode.Read);
+            CryptoStream cs = new CryptoStream(ms, rm.CreateDecryptor(GetKey(pass),GetKey(pass)), CryptoStreamMode.Read);
             StreamReader sr = new StreamReader(cs);
             string text = sr.ReadToEnd();
             sr.Close();
